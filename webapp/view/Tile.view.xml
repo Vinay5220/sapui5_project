@@ -1,0 +1,30 @@
+<mvc:View controllerName="tile1.controller.Tile"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+
+		<GenericTile id="_IDGenGenericTile2" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales order"
+			subheader="click on this for second page" press="moveTosales" url="https://www.sap.com/">
+			<TileContent id="_IDGenTileContent2">
+				<ImageContent id="_IDGenImageContent2" src="sap-icon://sales-document" />
+			</TileContent>
+		</GenericTile>
+
+		<GenericTile id="_IDGenGenericTile3" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="purchase order"
+			subheader="click on this for second page" press="moveTopurchase">
+			<TileContent id="_IDGenTileContent3" >
+				<ImageContent id="_IDGenImageContent3" src="sap-icon://sales-document" />
+			</TileContent>
+		</GenericTile>
+
+		<GenericTile id="_IDGenGenericTile4" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="order details"
+			subheader="click on this for second page" press="moveToorder">
+			<TileContent id="_IDGenTileContent4">
+				<ImageContent id="_IDGenImageContent4" src="sap-icon://order-status" />
+			</TileContent>
+		</GenericTile>
+
+        </content>
+    </Page>
+</mvc:View>

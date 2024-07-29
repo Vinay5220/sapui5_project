@@ -1,0 +1,10 @@
+<mvc:View controllerName="tile1.controller.purchase"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Text id="_IDGenText1" text="Hey!..........You are on second page"/>
+
+        </content>
+    </Page>
+</mvc:View>
